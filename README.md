@@ -30,21 +30,21 @@ Passengers and administrators can view real-time updates, monitor bus performanc
 
 This system enables:
 
-✔️ Real-time bus tracking and status updates
-✔️ Accurate delay calculation (Current Time vs Scheduled Time)
-✔️ Early arrival and on-time detection
-✔️ Slot-based bus stand management (A-01, A-02, A-03…)
-✔️ Live data synchronization using Firebase
-✔️ IoT-based LCD display for instant information
-✔️ Admin panel for managing schedules, slots, and bus details
-✔️ Admin panel for managing conductors and staff
-✔️ Admin panel for real-time updates and delay control
-✔️ Admin panel for monitoring system performance and analytics dashboard
-✔️ Easy search and filtering of bus details
-✔️ Performance monitoring (on-time vs delayed buses)
-✔️ User-friendly interface for quick access
-✔️ Manual override with “Mark as Delayed” option
-✔️ Scalable system for future smart city integration
+- ✔️ Real-time bus tracking and status updates
+- ✔️ Accurate delay calculation (Current Time vs Scheduled Time)
+- ✔️ Early arrival and on-time detection
+- ✔️ Slot-based bus stand management (A-01, A-02, A-03…)
+- ✔️ Live data synchronization using Firebase
+- ✔️ IoT-based LCD display for instant information
+- ✔️ Admin panel for managing schedules, slots, and bus details
+- ✔️ Admin panel for managing conductors and staff
+- ✔️ Admin panel for real-time updates and delay control
+- ✔️ Admin panel for monitoring system performance and analytics dashboard
+- ✔️ Easy search and filtering of bus details
+- ✔️ Performance monitoring (on-time vs delayed buses)
+- ✔️ User-friendly interface for quick access
+- ✔️ Manual override with “Mark as Delayed” option
+- ✔️ Scalable system for future smart city integration
 
 ---
 
@@ -118,19 +118,27 @@ The ArrivaX system consists of:
 
 ## Smart Slot Management Module
 
-* Detects slot occupancy
-* Displays FREE / OCCUPIED status
-* Supports multiple bus stand lanes
+* Detects slot occupancy using ultrasonic sensors
+* Displays FREE / OCCUPIED slot status
+* Supports multiple smart bus stand lanes
+* Displays real-time delay status on LCD displays
+* Shows delayed, on-time, and early-arrival bus conditions
+* Updates physical IoT display components instantly using Firebase synchronization
 
 ---
 
 ## Android Application Module
 
-* Passenger registration and login
-* Conductor management
+* Passenger registration and secure login
+* Conductor and staff management
 * Real-time bus stand monitoring
-* Schedule management
-* Live transportation updates
+* Schedule and slot management
+* Live transportation updates and synchronization
+* Displays real-time delay time inside the mobile application
+* Shows current bus slot status (Occupied / Empty / Updated in real-time)
+* Admin control for updating delay information manually
+* Easy search and filtering for buses, schedules, and slots
+* Real-time analytics and transportation performance monitoring
   
 ## Admin Dashboard 
 
